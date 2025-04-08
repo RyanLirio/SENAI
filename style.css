@@ -1,6 +1,14 @@
 
 body {
 	background-image: linear-gradient(120deg, grey, white);		
+	font-family: 'Poppins', sans-serif;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #111;
+	color: #eee;
+	padding: 40px;
 }
 
 .header{
@@ -68,9 +76,12 @@ body {
 	background-color: grey;
 	
 	height: 75%;
+	width: 60%;
 
 	margin-top: 10px;
 	border-radius: 10px;
+	padding-right: 45px;
+	padding-bottom: 55px;
 
 
 }
@@ -83,7 +94,11 @@ body {
 	align-items: center;
 	
 }
-
+.main div ul li h2{
+	display: flex;
+	
+	justify-content: center;
+}
 .recepcao{
 	display: flex;
 	gap: 50px;
@@ -101,6 +116,7 @@ body {
 }
 .recepcao img{
 	border-radius: 20px;
+	
 }
 
 .recepcao iframe{
@@ -225,3 +241,15 @@ body {
 	color: black;
 
 }
+
+.hr{
+	width: 100%;
+    height: 1px;
+	color: black;
+	background-color: black;
+	font-style: solid;
+}
+
+
+  
+
